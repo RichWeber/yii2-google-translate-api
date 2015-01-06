@@ -1,0 +1,26 @@
+{
+    "name": "richweber/yii2-google-translate-api",
+    "version":"1.0.0",
+    "description": "Yii 2 Framework extension for Google Translate API",
+    "keywords": ["yii2", "google", "translate", "api"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/RichWeber/yii2-google-translate-api/issues",
+        "wiki": "https://github.com/RichWeber/yii2-google-translate-api/wiki",
+        "source": "https://github.com/RichWeber/yii2-google-translate-api"
+    },
+    "authors": [
+        {
+            "name": "RichWeber",
+            "email": "rbagatyi@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "richweber\\google\\translate\\": "" }
+    }
+}
